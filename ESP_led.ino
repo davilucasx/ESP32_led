@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
 // guarda o nome e a senha da rede nas variáveis
-const char* ssid = "Larces";
-const char* senha = "@larces132";
+const char* ssid = "SEU WIFI";
+const char* senha = "SENHA";
 
 WiFiServer server(80); // cria um servidor web dentro da esp32, a porta 80 é a padrão da web
 
